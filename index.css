@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.font-neuemachina{
+    font-family: "PP Neue Machina Inktrap Medium";
+}
+.font-satoshi-variable{
+    font-family: "Satoshi Variable";
+}
+
+.circle-rotator{
+    top:50%;
+    left:-100vh;
+    transform: translate(0, -50%) rotate(100deg);
+}
+
+.stripe{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:100%;
+    transform: translate(0,-50%);
+    height:80px;
+    
+    transform-origin: 0% 50%;
+}
+.strip-1{
+   transform: translate(0,-50%) rotate(-20deg);
+}
+.strip-2{
+   transform: translate(0,-50%) rotate(-10deg);
+}
+.strip-3{
+   transform: translate(0,-50%) rotate(0deg);
+}
+.strip-4{
+   transform: translate(0,-50%) rotate(10deg);
+}
+.strip-5{
+   transform: translate(0,-50%) rotate(20deg);
+}
+
+
+.satoshi-variabale{
+    font-family: "Satoshi Variable";
+}
+.neue{
+    font-family: "PP Neue Machina Inktrap Medium";
+}
+
+.marquee-text-img{
+    transform: translate(-100%);
+}
+.text-effect > h2{
+    transition: all 0.4s linear;
+}
+.text-effect:hover h2{
+    transform: translateY(-100%);
+}
